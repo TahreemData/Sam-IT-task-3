@@ -1,21 +1,15 @@
 # Sam-IT-task-3
 # Credit Card Fraud Detection — Machine Learning
-
-## 📌 Project Overview
-
+ Project Overview
 This project focuses on detecting **fraudulent credit card transactions using machine learning**. The dataset contains anonymized transaction features (`V1`–`V28`), transaction time, transaction amount, and a binary target variable called `Class`.
-
 The project was completed as part of a **Data Science Internship – Task 5: Credit Card Fraud Detection**.
-
-## 🎯 Objectives
-
+# 🎯 Objectives
 * Detect fraudulent credit card transactions.
 * Explore and clean the transaction dataset.
 * Handle the highly imbalanced target variable.
 * Preprocess and scale numerical features.
 * Train multiple classification models.
 * Evaluate models using:
-
   * Accuracy
   * Precision
   * Recall
@@ -23,11 +17,8 @@ The project was completed as part of a **Data Science Internship – Task 5: Cre
   * ROC-AUC
 * Analyze confusion matrices.
 * Examine feature importance.
-
 ## 📊 Dataset
-
 The dataset contains the following main variables:
-
 * `Time` — Time elapsed between transactions.
 * `V1` to `V28` — Anonymized numerical features.
 * `Amount` — Transaction amount.
@@ -133,20 +124,14 @@ Provides a balance between Precision and Recall.
 ### ROC-AUC
 
 Measures the model's ability to distinguish between fraudulent and non-fraudulent transactions across classification thresholds.
-
 ### Confusion Matrix
-
 Used to analyze:
-
 * True Negatives
 * False Positives
 * False Negatives
 * True Positives
-
 ## 📊 Visualizations
-
 The project includes visualizations for:
-
 * Class distribution
 * Fraud vs. non-fraud percentage
 * Transaction amount distribution
@@ -154,17 +139,5 @@ The project includes visualizations for:
 * Model performance comparison
 * ROC curves
 * Top feature importance
-
-## 📁 Project Files
-
-```text
-Credit-Card-Fraud-Detection/
-│
-├── creditcard.csv
-├── Credit_Card_Fraud_Detection.ipynb
-├── credit_card_fraud_cleaned.csv
-├── credit_card_fraud_model_results.csv
-├── credit_card_fraud_feature_importance.csv
-└── README.md
 ## 📌 Key Consideration
 Credit card fraud datasets are highly imbalanced. Therefore, **accuracy should not be considered alone** when evaluating fraud detection models. Precision, Recall, F1-Score, and ROC-AUC provide additional information about the model's ability to identify the minority fraud class.
